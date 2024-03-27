@@ -1,0 +1,89 @@
+object Form1: TForm1
+  Left = 745
+  Height = 373
+  Top = 272
+  Width = 372
+  Caption = 'Form1'
+  ClientHeight = 373
+  ClientWidth = 372
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 24
+    Height = 15
+    Top = 25
+    Width = 134
+    Caption = 'Введите начало отрезка:'
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 15
+    Top = 56
+    Width = 127
+    Caption = 'Введите конец отрезка:'
+  end
+  object Label3: TLabel
+    Left = 24
+    Height = 15
+    Top = 88
+    Width = 71
+    Caption = 'Введите шаг:'
+  end
+  object Label4: TLabel
+    Left = 24
+    Height = 15
+    Top = 121
+    Width = 108
+    Caption = 'Значение функции:'
+  end
+  object Button1: TButton
+    Left = 168
+    Height = 17
+    Top = 121
+    Width = 184
+    Caption = 'Рассчитать'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Memo1: TMemo
+    Left = 24
+    Height = 181
+    Top = 144
+    Width = 329
+    Lines.Strings = (
+      ''
+    )
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 168
+    Height = 23
+    Top = 19
+    Width = 185
+    TabOrder = 2
+  end
+  object Edit2: TEdit
+    Left = 168
+    Height = 23
+    Top = 50
+    Width = 185
+    TabOrder = 3
+  end
+  object Edit3: TEdit
+    Left = 168
+    Height = 23
+    Top = 80
+    Width = 185
+    TabOrder = 4
+  end
+  object BitBtn1: TBitBtn
+    Left = 256
+    Height = 32
+    Top = 328
+    Width = 100
+    DefaultCaption = True
+    Kind = bkClose
+    ModalResult = 11
+    OnClick = BitBtn1Click
+    TabOrder = 5
+  end
+end
